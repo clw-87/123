@@ -119,3 +119,10 @@ print('你的體態:', bmi_category)
 #         continue
 #     print(ch, end='')
 # print()
+s=input('請輸入一串字串:')
+for ch in s:
+    if(s=='fuck'):
+        break
+    print('沒禮貌')
+else:
+    print('有禮貌')
