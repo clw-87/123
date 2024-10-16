@@ -1,1 +1,83 @@
-# 123
+# b=int(input('輸入數字:'))
+# print(nbr,"的平方為:",nbr**2)
+# b=(b+1)*b/2
+# print('1加到100為',b)
+# print(f'1加到100為:{b:.0f}')
+# c,d=10,5
+# print('c=',c,'d=',d)
+# c,d=d,c 
+# print('c=',c,'d=',d)
+# a=input('請輸入你的名字:')
+# b=int(input('輸入金額:'))
+# c=float(input('輸入利率:'))
+# d=int(input('輸入年數:'))
+# tenyears=b*((1+c)**d)
+# print(a[0],'先生/女士您好')
+# print('10年後金額:',tenyears)
+# a=int(input('enter your score:'))
+# a=a+10
+# if a>=60:
+#     print('pass')
+# else:
+#     print('unpass')
+# d= int(input("請輸入第一個數字: "))
+# e= int(input("請輸入第二個數字: "))
+# max = max(d,e)
+# print("最大數:", max)
+
+
+# a= int(input("請輸入第一個數字: "))
+# b= int(input("請輸入第二個數字: "))
+# c= int(input("請輸入第三個數字: "))
+# max = max(a, b, c)
+# print("最大數:", max)
+
+# a= int(input("請輸入第一個數字: "))
+# b= int(input("請輸入第二個數字: "))
+# c= int(input("請輸入第三個數字: "))
+# x=a
+# if b>x:
+#     x=b
+# if c>x:
+#     x=c
+# print('最大數',x)
+# if (a>=b and a>=c) :
+#     print('最大值',a)
+# if (b>=a and b>=c) :
+#     print('最大值',b)
+# if (c>=a and c>=b) :
+#     print('最大值',c)
+# dollar=300
+# a= int(input("輸入年齡:"))
+# if a<5 or a>=65:
+#     a=int(dollar/2)
+#     print('價格為',dollar)
+# age= int(input("請輸入年齡: "))
+# rating='普遍級'
+# if   age>=18:
+#     rating='限制級'
+# elif age>=12:
+#     rating='輔導級'
+# elif age>=6:
+#     rating='保護級'
+# else :
+#     rating='普遍級'
+# print(f'年齡{age}歲最高可看{rating}電影')
+a = int(input("輸入體重(kg): "))
+b = int(input("輸入身高(cm): "))
+bmi = a / (b / 100) ** 2  # 修正計算 BMI 的公式
+
+if bmi < 18.5:
+    bmi_category = '過輕'
+elif 18.5 <= bmi < 24:
+    bmi_category = '正常'
+elif 24 <= bmi < 27:
+    bmi_category = '過重'
+elif 27 <= bmi < 30:
+    bmi_category = '輕度肥胖'
+elif 30 <= bmi < 35:
+    bmi_category = '中度肥胖'
+else:  # BMI >= 35
+    bmi_category = '重度肥胖'
+
+print('你的體態:', bmi_category)
