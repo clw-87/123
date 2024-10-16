@@ -81,3 +81,41 @@ else:  # BMI >= 35
     bmi_category = '重度肥胖'
 
 print('你的體態:', bmi_category)
+# a = int(input("輸入一個數: "))
+# sum = 0
+# for i in range(1,a+1):
+#     sum=sum+i
+#     print(sum)
+# a = int(input("輸入一個數: "))
+# sum = 0
+# for i in range(1,a+1):
+#     sum=sum+(i**2)
+#     print(sum)
+# a = int(input("輸入一個數: "))
+# sum=0
+# i=1
+# while i<=a:
+#     sum=sum+i
+#     i=i+1
+# print(sum)
+# for i in range(10):
+#     if i==5:
+#         continue
+#     print(i)
+
+# for i in range(10):
+#     if i==5:
+#         break
+#     print(i)
+# s=0
+# i=1
+# while s<=10:
+#     s=s+i
+#     i=i+1
+# print(i-1)
+# a= input("輸入一個數: ")
+# for ch in a:
+#     if(ch > '9' or ch < '0'):
+#         continue
+#     print(ch, end='')
+# print()
