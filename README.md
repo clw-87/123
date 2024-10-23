@@ -63,24 +63,24 @@
 # else :
 #     rating='普遍級'
 # print(f'年齡{age}歲最高可看{rating}電影')
-a = int(input("輸入體重(kg): "))
-b = int(input("輸入身高(cm): "))
-bmi = a / (b / 100) ** 2  # 修正計算 BMI 的公式
+# a = int(input("輸入體重(kg): "))
+# b = int(input("輸入身高(cm): "))
+# bmi = a / (b / 100) ** 2  # 修正計算 BMI 的公式
 
-if bmi < 18.5:
-    bmi_category = '過輕'
-elif 18.5 <= bmi < 24:
-    bmi_category = '正常'
-elif 24 <= bmi < 27:
-    bmi_category = '過重'
-elif 27 <= bmi < 30:
-    bmi_category = '輕度肥胖'
-elif 30 <= bmi < 35:
-    bmi_category = '中度肥胖'
-else:  # BMI >= 35
-    bmi_category = '重度肥胖'
+# if bmi < 18.5:
+#     bmi_category = '過輕'
+# elif 18.5 <= bmi < 24:
+#     bmi_category = '正常'
+# elif 24 <= bmi < 27:
+#     bmi_category = '過重'
+# elif 27 <= bmi < 30:
+#     bmi_category = '輕度肥胖'
+# elif 30 <= bmi < 35:
+#     bmi_category = '中度肥胖'
+# else:  # BMI >= 35
+#     bmi_category = '重度肥胖'
 
-print('你的體態:', bmi_category)
+# print('你的體態:', bmi_category)
 # a = int(input("輸入一個數: "))
 # sum = 0
 # for i in range(1,a+1):
@@ -119,10 +119,35 @@ print('你的體態:', bmi_category)
 #         continue
 #     print(ch, end='')
 # print()
-s=input('請輸入一串字串:')
-for ch in s:
-    if(s=='fuck'):
-        break
-    print('沒禮貌')
-else:
-    print('有禮貌')
+# a= input("輸入一個數: ")
+# for ch in a:
+#     if(ch > '9' or ch < '0'):
+#         continue
+# print(ch, end='')
+# print()
+# s = input('請輸入一串字串:')
+# for ch in s:
+#     if s == 'fuck':
+#         break
+#     print('肏你媽')
+# else:
+#     print('有禮貌')
+# a='geggoo'
+# i = 5
+# while i >0:
+#     a = input('輸入帳號:')
+#     i=i-1
+#     if a == 'geggoo':
+#         print('帳號正確')
+#         break
+import random
+b=random.randint(range(1,100),6)
+while True:
+    a= input(int("輸入一個數: "))
+    if a<b:
+        print('在大一點')
+    elif a>b:
+        print('在小一點')     
+    else:
+         print('恭喜猜對')
+         break
