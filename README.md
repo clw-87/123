@@ -147,6 +147,25 @@ while True:
     if a<b:
         print('在大一點')
     elif a>b:
+ # r=6.4
+# PI=3.14159
+# print('半徑')
+# username = input('輸入姓名:')
+# age=int(input('請輸入年齡:'))
+# print('姓名:%s\t年齡:%d歲'%(username,age))
+a=input('輸入一個數:')
+b=input('輸入一個數:')
+c=a*b+a
+print('結果:',c)
+
+def mymulti(num1,num2):
+    num3=num1*num2+num1
+    return num3
+print(mymulti(3,8))
+d=mymulti(3,8)
+print(d)
+print(mymulti(a,b))
+print(mymulti(b,a))
         print('在小一點')     
     else:
          print('恭喜猜對')
