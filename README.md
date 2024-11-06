@@ -79,8 +79,8 @@
 #     bmi_category = '中度肥胖'
 # else:  # BMI >= 35
 #     bmi_category = '重度肥胖'
-
 # print('你的體態:', bmi_category)
+
 # a = int(input("輸入一個數: "))
 # sum = 0
 # for i in range(1,a+1):
@@ -113,18 +113,21 @@
 #     s=s+i
 #     i=i+1
 # print(i-1)
+
 # a= input("輸入一個數: ")
 # for ch in a:
 #     if(ch > '9' or ch < '0'):
 #         continue
 #     print(ch, end='')
 # print()
+
 # a= input("輸入一個數: ")
 # for ch in a:
 #     if(ch > '9' or ch < '0'):
 #         continue
 # print(ch, end='')
 # print()
+
 # s = input('請輸入一串字串:')
 # for ch in s:
 #     if s == 'fuck':
@@ -132,6 +135,7 @@
 #     print('肏你媽')
 # else:
 #     print('有禮貌')
+
 # a='geggoo'
 # i = 5
 # while i >0:
@@ -140,6 +144,7 @@
 #     if a == 'geggoo':
 #         print('帳號正確')
 #         break
+
 import random
 b=random.randint(range(1,100),6)
 while True:
@@ -147,12 +152,15 @@ while True:
     if a<b:
         print('在大一點')
     elif a>b:
- # r=6.4
+ 
+# r=6.4
 # PI=3.14159
 # print('半徑')
+
 # username = input('輸入姓名:')
 # age=int(input('請輸入年齡:'))
 # print('姓名:%s\t年齡:%d歲'%(username,age))
+
 a=input('輸入一個數:')
 b=input('輸入一個數:')
 c=a*b+a
